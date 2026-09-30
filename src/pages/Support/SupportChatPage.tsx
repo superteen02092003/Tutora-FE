@@ -173,7 +173,7 @@ const SupportChatPage: React.FC<SupportChatPageProps> = ({ embedded = false, onB
                 <div key={m.supportMessageId} style={{ display: 'contents' }}>
                   {showDivider && <span className={styles.dayDivider}>{formatDayDivider(m.createdAt)}</span>}
                   <div className={`${styles.msgRow} ${m.senderSide === 'user' ? styles.msgRowMine : styles.msgRowTheirs}`}>
-                    <p className={styles.msgSender}>{m.senderSide === 'user' ? 'Bạn' : m.senderName || 'Tutora'}</p>
+                    <p className={styles.msgSender}>{m.senderSide === 'user' ? 'Bạn' : m.senderName || 'TopTutor'}</p>
                     {m.messageType === 'image' ? (
                       <a href={m.message} target="_blank" rel="noreferrer" className={styles.imageBubbleLink}>
                         <img src={m.message} alt="Hình ảnh đính kèm" className={styles.imageBubble} />
@@ -249,8 +249,8 @@ const SupportChatPage: React.FC<SupportChatPageProps> = ({ embedded = false, onB
   return (
     <PageContainer
       eyebrow="Hỗ trợ"
-      eyebrowInfo="Nhắn tin trực tiếp cho đội ngũ hỗ trợ Tutora."
-      title="Hỗ trợ Tutora"
+      eyebrowInfo="Nhắn tin trực tiếp cho đội ngũ hỗ trợ TopTutor."
+      title="Hỗ trợ TopTutor"
       maxWidth="wide"
     >
       {conversation}

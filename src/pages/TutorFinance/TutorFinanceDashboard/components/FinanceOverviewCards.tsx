@@ -66,7 +66,7 @@ const FinanceOverviewCards: React.FC<Props> = ({ summary, loading }) => {
       label: 'Tổng thu nhập',
       value: formatCurrency(summary?.totalEarned ?? 0),
       note: 'Tổng tích lũy từ trước đến nay',
-      tooltip: 'Tổng số tiền bạn đã kiếm được trên TUTORA',
+      tooltip: 'Tổng số tiền bạn đã kiếm được trên TopTutor',
       icon: <RiseOutlined />,
       tone: 'green',
     },

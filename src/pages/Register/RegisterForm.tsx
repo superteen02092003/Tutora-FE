@@ -77,7 +77,7 @@ const RegisterForm: React.FC = () => {
                                 rel="noopener noreferrer"
                                 style={{ color: '#1a2238', fontWeight: 600, fontSize: 13, textDecoration: 'underline' }}
                             >
-                                Đi tới Tutora Admin
+                                Đi tới TopTutor Admin
                             </a>
                         </div>,
                         { autoClose: 10000, toastId: 'admin-wrong-portal' }
@@ -187,7 +187,7 @@ const RegisterForm: React.FC = () => {
             const role = getRoleFromToken(token) || '';
             const portalPath = getPortalPathFromRole(role);
 
-            toast.success(`Chào mừng ${formData.fullname} đến với TUTORA!`);
+            toast.success(`Chào mừng ${formData.fullname} đến với TopTutor!`);
             setTimeout(() => navigate(portalPath), 1500);
         } catch (error: any) {
             console.error("Register Error:", error);

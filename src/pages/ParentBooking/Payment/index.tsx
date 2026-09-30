@@ -296,7 +296,7 @@ const PaymentPage = () => {
             <h1>{isRemainingPhase ? 'Đã quá hạn thanh toán các buổi còn lại' : 'Yêu cầu đặt lịch đã hết hạn'}</h1>
             <p className={styles.successMessage}>
               {isRemainingPhase
-                ? 'Bạn chưa thanh toán các buổi học còn lại trong thời hạn 48 giờ cho phép, nên khóa học đã được kết thúc sớm với các buổi đã hoàn thành. Vui lòng liên hệ TUTORA nếu cần hỗ trợ thêm.'
+                ? 'Bạn chưa thanh toán các buổi học còn lại trong thời hạn 48 giờ cho phép, nên khóa học đã được kết thúc sớm với các buổi đã hoàn thành. Vui lòng liên hệ TopTutor nếu cần hỗ trợ thêm.'
                 : 'Bạn chưa hoàn tất thanh toán tiền cọc trong thời hạn 10 phút cho phép, nên yêu cầu đặt lịch này đã tự động hết hạn. Vui lòng đặt lịch lại với gia sư để tiếp tục.'}
             </p>
             <div className={styles.successActions}>
@@ -366,7 +366,7 @@ const PaymentPage = () => {
             <span className={styles.successEyebrow}>Giao dịch đã được xác nhận</span>
             <h1>Thanh toán hoàn tất!</h1>
             <p className={styles.successMessage}>
-              Cảm ơn bạn đã tin tưởng TUTORA. Lịch học đã được giữ chỗ và sẵn sàng để bạn theo dõi.
+              Cảm ơn bạn đã tin tưởng TopTutor. Lịch học đã được giữ chỗ và sẵn sàng để bạn theo dõi.
             </p>
 
             <div className={styles.successReceipt}>
@@ -481,7 +481,7 @@ const PaymentPage = () => {
                 return parentFee > 0 ? (
                   <div className={styles.priceRow}>
                     <span className={styles.feeLabelStack}>
-                      Phí dịch vụ TUTORA (5%)
+                      Phí dịch vụ TopTutor (5%)
                       <small>Phí duy trì &amp; bảo vệ giao dịch trên nền tảng</small>
                     </span>
                     <span>+{formatPrice(parentFee)}</span>
@@ -526,7 +526,7 @@ const PaymentPage = () => {
 
             <div className={styles.securityNote}>
               <ShieldCheck size={16} />
-              <p>TUTORA đảm bảo thanh toán an toàn. Tiền chỉ được chuyển cho gia sư sau khi buổi học hoàn thành.</p>
+              <p>TopTutor đảm bảo thanh toán an toàn. Tiền chỉ được chuyển cho gia sư sau khi buổi học hoàn thành.</p>
             </div>
           </div>
         </div>
@@ -622,7 +622,7 @@ const PaymentPage = () => {
                       <Wallet size={24} />
                     </div>
                     <div className={styles.methodInfo}>
-                      <h3>Số dư ví TUTORA</h3>
+                      <h3>Số dư ví TopTutor</h3>
                       <p>
                         Số dư hiện tại: <strong>{formatPrice(summary?.walletBalance || 0)}</strong>
                       </p>
@@ -648,7 +648,7 @@ const PaymentPage = () => {
                       ZaloPay (sắp ra mắt)
                     </Button>
                     <p style={{ fontSize: 12, color: '#888', marginTop: 8, textAlign: 'center' }}>
-                      Tạm thời dùng Ví TUTORA để thanh toán
+                      Tạm thời dùng Ví TopTutor để thanh toán
                     </p>
                   </div>
                 ) : paymentMethod === 'payos' ? (

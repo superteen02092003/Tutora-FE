@@ -67,7 +67,7 @@ const HeroSection = () => {
                     </h1>
 
                     <p className="hero-description">
-                        Tutora giúp phụ huynh tìm gia sư đã được xác minh, đặt lịch học online, và nhận báo cáo tiến độ sau mỗi buổi — tất cả trên một nền tảng duy nhất.
+                        TopTutor giúp phụ huynh tìm gia sư đã được xác minh, đặt lịch học online, và nhận báo cáo tiến độ sau mỗi buổi — tất cả trên một nền tảng duy nhất.
                     </p>
 
                     <div className="hero-buttons">
@@ -88,7 +88,7 @@ const HeroSection = () => {
                         />
                         <div className="hero-image-gradient"></div>
                         <div className="hero-lms-badge">
-                            <span className="lms-title">TUTORA — Theo dõi học tập.</span>
+                            <span className="lms-title">TopTutor — Theo dõi học tập.</span>
                             <span className="lms-subtitle">Báo cáo tiến độ tự động sau mỗi buổi học.</span>
                         </div>
                     </div>
@@ -169,7 +169,7 @@ const StatisticsSection = () => {
                         <span>An tâm tuyệt đối</span>
                     </div>
                     <h2 className="statistics-title">
-                        TUTORA BẢO VỆ<br />
+                        TOPTUTOR BẢO VỆ<br />
                         CẢ PHỤ HUYNH <span className="title-gold">LẪN GIA SƯ.</span>
                     </h2>
                     <p className="statistics-description">
@@ -270,18 +270,18 @@ const TestimonialsSection = () => {
 
     const faqs = [
         {
-            question: "Tutora có uy tín không? Mới quá?",
-            answer: "Tutora được đầu tư bởi Dream-lab.ai và FPT University. Chúng tôi sử dụng cơ chế giữ tiền trung gian (Escrow) — tiền của bạn chỉ được chuyển cho gia sư sau khi buổi học hoàn tất.",
+            question: "TopTutor có uy tín không? Mới quá?",
+            answer: "TopTutor được đầu tư bởi Dream-lab.ai và FPT University. Chúng tôi sử dụng cơ chế giữ tiền trung gian (Escrow) — tiền của bạn chỉ được chuyển cho gia sư sau khi buổi học hoàn tất.",
             tag: "Về độ tin cậy",
         },
         {
-            question: "Gia sư trên Tutora là ai?",
+            question: "Gia sư trên TopTutor là ai?",
             answer: "Chủ yếu là sinh viên giỏi tại các trường đại học lớn và giáo viên có kinh nghiệm. Mỗi gia sư đều được xác minh hồ sơ — CMND, bằng cấp và phỏng vấn — trước khi nhận học sinh.",
             tag: "Về gia sư",
         },
         {
-            question: "Chi phí học trên Tutora thế nào?",
-            answer: "Giá do gia sư tự đặt. Phụ huynh chỉ trả thêm 5% phí dịch vụ cho Tutora. Không có phí ẩn, không thu trước khi buổi học diễn ra.",
+            question: "Chi phí học trên TopTutor thế nào?",
+            answer: "Giá do gia sư tự đặt. Phụ huynh chỉ trả thêm 5% phí dịch vụ cho TopTutor. Không có phí ẩn, không thu trước khi buổi học diễn ra.",
             tag: "Về chi phí",
         },
         {
@@ -312,7 +312,7 @@ const TestimonialsSection = () => {
                         </h2>
                     </div>
                     <p className="testimonials-description">
-                        "Những câu hỏi phổ biến nhất từ phụ huynh khi lần đầu tìm hiểu về Tutora."
+                        "Những câu hỏi phổ biến nhất từ phụ huynh khi lần đầu tìm hiểu về TopTutor."
                     </p>
                 </div>
 

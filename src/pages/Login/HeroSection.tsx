@@ -37,7 +37,7 @@ const HeroSection: React.FC = () => {
                     />
                 </div>
                 <div className="login-hero__trust-text">
-                    Cùng phát triển với <span className="login-hero__trust-count">TUTORA Community</span>
+                    Cùng phát triển với <span className="login-hero__trust-count">TopTutor Community</span>
                 </div>
             </div>
         </div>

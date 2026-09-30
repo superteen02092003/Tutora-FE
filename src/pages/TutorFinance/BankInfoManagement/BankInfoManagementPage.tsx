@@ -53,7 +53,7 @@ const BankInfoManagementPage: React.FC = () => {
   return (
     <FinancePageShell
       title="Tài khoản ngân hàng"
-      titleInfo="Quản lý tài khoản nhận tiền khi yêu cầu rút thu nhập từ TUTORA."
+      titleInfo="Quản lý tài khoản nhận tiền khi yêu cầu rút thu nhập từ TopTutor."
     >
       <div className="finance-bank-layout">
         <BankAccountCard

@@ -63,7 +63,7 @@ const buildPageTours = (): PageTour[] => [
         steps: [
             {
                 target: '[data-tour="sidebar"]',
-                title: '🎯 Chào mừng đến TUTORA!',
+                title: '🎯 Chào mừng đến TopTutor!',
                 description: 'Đây là Bảng điều khiển của bạn. Menu bên trái giúp bạn truy cập nhanh mọi chức năng theo dõi việc học của con.',
                 placement: 'right',
             },
@@ -88,7 +88,7 @@ const buildPageTours = (): PageTour[] => [
             {
                 target: '[data-tour="nav-student"]',
                 title: '🎉 Sẵn sàng rồi!',
-                description: 'Chúc bạn đồng hành cùng con thật hiệu quả trên TUTORA! Cần hỗ trợ, đừng ngần ngại liên hệ đội ngũ của chúng tôi nhé. 💪',
+                description: 'Chúc bạn đồng hành cùng con thật hiệu quả trên TopTutor! Cần hỗ trợ, đừng ngần ngại liên hệ đội ngũ của chúng tôi nhé. 💪',
                 placement: 'right',
             },
         ],
@@ -436,8 +436,8 @@ const ParentLayoutInner: React.FC<ParentLayoutProps> = ({ children }) => {
         <>
             {tour.showTourPrompt && (
                 <TourWelcomePrompt
-                    title="Chào mừng bạn đến TUTORA!"
-                    description="Hãy để TUTORA hướng dẫn bạn khám phá các tính năng để đồng hành cùng con hiệu quả nhất nhé!"
+                    title="Chào mừng bạn đến TopTutor!"
+                    description="Hãy để TopTutor hướng dẫn bạn khám phá các tính năng để đồng hành cùng con hiệu quả nhất nhé!"
                     onAccept={tour.handleAcceptTour}
                     onSkip={tour.handleSkipTour}
                 />

@@ -69,7 +69,7 @@ const PolicyConsent: React.FC<PolicyConsentProps> = ({
               </Link>
             </React.Fragment>
           ))}{' '}
-          của Tutora.
+          của TopTutor.
         </label>
         {hint && <p className={styles.hint}>{hint}</p>}
       </div>

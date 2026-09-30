@@ -326,7 +326,7 @@ const TutorDetail = ({ tutor, onBack, onBooking }: { tutor: Tutor; onBack: () =>
             <div className={styles.profileHeroTop}>
               <span>
                 <i />
-                TUTORA Original Interview
+                TopTutor Original Interview
               </span>
               <small>Click để xem phỏng vấn học thuật</small>
             </div>
@@ -419,7 +419,7 @@ const TutorDetail = ({ tutor, onBack, onBooking }: { tutor: Tutor; onBack: () =>
           <div className={styles.verificationNote}>
             <ShieldCheck size={18} />
             <div>
-              <strong>Đã xác minh bởi TUTORA Council</strong>
+              <strong>Đã xác minh bởi TopTutor Council</strong>
               <span>Hoàn học phí nếu không hài lòng sau buổi học đầu tiên.</span>
             </div>
           </div>

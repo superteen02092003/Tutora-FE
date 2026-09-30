@@ -48,16 +48,16 @@ const TARGET_BY_ROLE: Record<string, Partial<Record<PortalRole, (id?: string) =>
 /** Tiêu đề + mô tả cho màn hình chờ đăng nhập, để người lạ mở link vẫn hiểu đang ở đâu. */
 const TARGET_INFO: Record<string, { title: string; desc: string; idLabel?: string }> = {
   payment: {
-    title: 'Thanh toán học phí Tutora',
+    title: 'Thanh toán học phí TopTutor',
     desc: 'Vui lòng đăng nhập bằng tài khoản đã đặt lịch học để xem môn học, số tiền, hạn thanh toán và hoàn tất thanh toán.',
     idLabel: 'Mã đặt lịch',
   },
   lessons: {
-    title: 'Lịch học trên Tutora',
+    title: 'Lịch học trên TopTutor',
     desc: 'Vui lòng đăng nhập để xem lịch học và thông tin buổi học của quý khách.',
   },
   bookings: {
-    title: 'Đơn đặt lịch học trên Tutora',
+    title: 'Đơn đặt lịch học trên TopTutor',
     desc: 'Vui lòng đăng nhập để xem chi tiết đơn đặt lịch học.',
     idLabel: 'Mã đặt lịch',
   },
@@ -67,19 +67,19 @@ const TARGET_INFO: Record<string, { title: string; desc: string; idLabel?: strin
     idLabel: 'Mã đặt lịch',
   },
   payout: {
-    title: 'Yêu cầu rút tiền trên Tutora',
+    title: 'Yêu cầu rút tiền trên TopTutor',
     desc: 'Vui lòng đăng nhập bằng tài khoản gia sư để xem tình trạng yêu cầu rút tiền.',
     idLabel: 'Mã yêu cầu',
   },
   disputes: {
-    title: 'Khiếu nại trên Tutora',
+    title: 'Khiếu nại trên TopTutor',
     desc: 'Vui lòng đăng nhập để xem kết quả xử lý khiếu nại.',
     idLabel: 'Mã khiếu nại',
   },
 };
 
 const FALLBACK_INFO = {
-  title: 'Tutora',
+  title: 'TopTutor',
   desc: 'Vui lòng đăng nhập để tiếp tục.',
   idLabel: undefined as string | undefined,
 };
@@ -125,7 +125,7 @@ const GoRedirect = () => {
   return (
     <div className={styles.wrap}>
       <div className={styles.card}>
-        <span className={styles.brand}>Tutora</span>
+        <span className={styles.brand}>TopTutor</span>
         <h1 className={styles.title}>{info.title}</h1>
         {id && info.idLabel && (
           <p className={styles.ref}>

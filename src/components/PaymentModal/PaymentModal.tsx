@@ -561,7 +561,7 @@ const PaymentModal = ({ bookingId, isOpen, onClose, onPaymentSuccess, tutorId }:
                     <div className={styles.footer}>
                         <div className={styles.secureInfo}>
                             <CheckCircle2 size={14} />
-                            <span>Thanh toán an toàn &amp; bảo mật bởi TUTORA</span>
+                            <span>Thanh toán an toàn &amp; bảo mật bởi TopTutor</span>
                         </div>
                     </div>
                 </div>
@@ -579,7 +579,7 @@ const PaymentModal = ({ bookingId, isOpen, onClose, onPaymentSuccess, tutorId }:
                             <CreditCard size={22} />
                         </div>
                         <div>
-                            <span className={styles.headerEyebrow}>TUTORA Secure Pay</span>
+                            <span className={styles.headerEyebrow}>TopTutor Secure Pay</span>
                             <h3>{getPhaseTitle()}</h3>
                             <p>{getPhaseDescription()}</p>
                         </div>
@@ -762,7 +762,7 @@ const PaymentModal = ({ bookingId, isOpen, onClose, onPaymentSuccess, tutorId }:
                 <div className={styles.footer}>
                     <div className={styles.secureInfo}>
                         <CheckCircle2 size={14} />
-                        <span>Thanh toán an toàn &amp; bảo mật bởi TUTORA</span>
+                        <span>Thanh toán an toàn &amp; bảo mật bởi TopTutor</span>
                     </div>
                 </div>
             </div>

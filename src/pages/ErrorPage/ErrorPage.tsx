@@ -38,7 +38,7 @@ const ErrorPage: React.FC<ErrorPageProps> = ({
             <div className="error-container">
                 {/* Logo */}
                 <div className="error-logo">
-                    <span className="logo-text">TUTORA</span>
+                    <span className="logo-text">TOPTUTOR</span>
                 </div>
 
                 {/* Error Code */}
@@ -72,7 +72,7 @@ const ErrorPage: React.FC<ErrorPageProps> = ({
                 {/* Footer Text */}
                 <p className="error-footer">
                     Nếu bạn cho rằng đây là một lỗi, vui lòng{' '}
-                    <a href="mailto:support@TUTORA.edu" className="error-link">
+                    <a href="mailto:support@toptutor.ai" className="error-link">
                         liên hệ hỗ trợ
                     </a>
                 </p>

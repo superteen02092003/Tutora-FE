@@ -256,7 +256,7 @@ const TopupQRView = ({
       <div className={styles.card}>
         <div className={styles.header}>
           <div className={styles.headerTitle}>
-            <span className={styles.headerEyebrow}>TUTORA</span>
+            <span className={styles.headerEyebrow}>TOPTUTOR</span>
             <h3>Nạp thêm &amp; thanh toán bằng ví</h3>
           </div>
           <button type="button" className={styles.closeBtn} onClick={onCancel} aria-label="Đóng">
