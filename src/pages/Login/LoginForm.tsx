@@ -138,7 +138,7 @@ const LoginForm: React.FC = () => {
             rel="noopener noreferrer"
             style={{ color: '#1a2238', fontWeight: 600, fontSize: 13, textDecoration: 'underline' }}
           >
-            Đi tới Tutora Admin →
+            Đi tới TopTutor Admin →
           </a>
         </div>,
         { autoClose: 10000, toastId: 'admin-wrong-portal' }
