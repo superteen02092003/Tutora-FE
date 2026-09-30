@@ -46,7 +46,10 @@ const LEFT_EYE = [33, 160, 158, 133, 153, 144];
 const RIGHT_EYE = [362, 385, 387, 263, 373, 380];
 const EAR_THRESHOLD = 0.2; // dưới ngưỡng này → nhắm mắt
 
-const EMOTION_MODEL_URL = '/models/emotion-ferplus-8.onnx';
+// Model FER+ nặng ~35 MB — vượt giới hạn 25 MiB/file của Cloudflare Pages, nên bản deploy trên
+// Pages tải model từ nơi khác qua VITE_EMOTION_MODEL_URL. Không đặt biến thì dùng bản trong public/.
+const EMOTION_MODEL_URL =
+  (import.meta.env.VITE_EMOTION_MODEL_URL as string | undefined) || '/models/emotion-ferplus-8.onnx';
 const FACE_LANDMARKER_URL = '/models/face_landmarker.task';
 // WASM binaries của onnxruntime-web. KHÔNG đặt trong public/ vì onnxruntime tải loader .mjs bằng
 // import() động — Vite chặn import file trong public/ từ source. Dùng CDN jsDelivr khớp version cài

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev:zalo": "vite --mode zalo",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/prune-pages-dist.mjs",
     "build:zalo": "tsc -b && vite build --mode zalo && node scripts/zalo-post-build.mjs",
     "lint": "eslint .",
     "test:presence": "node --experimental-strip-types --test tests/presence.test.ts",
