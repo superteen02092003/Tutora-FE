@@ -112,7 +112,7 @@ const BankAccountCard: React.FC<Props> = ({ bankInfo, loading, onEdit, onDeleteC
         <BankCardArtwork motif={theme.motif} />
 
         <div className="finance-bank-visual__top">
-          <span className="finance-bank-visual__label">TUTORA PAYOUT</span>
+          <span className="finance-bank-visual__label">TOPTUTOR PAYOUT</span>
           {showLogo ? (
             <span className="finance-bank-visual__logo">
               <img src={logoUrl!} alt={bankName} loading="lazy" onError={() => setFailedLogoUrl(logoUrl)} />

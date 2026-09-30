@@ -137,11 +137,11 @@ const Header = ({
       <div className="header-content">
         <Link to="/" className="logo-link">
           <div className="logo-icon">
-            <img src="/tutora-logo.png" alt="Tutora" width="38" height="38" />
+            <img src="/tutora-logo.png" alt="TopTutor" width="38" height="38" />
           </div>
           <div className="logo-text">
-            <span className="logo-name">TUTORA</span>
-            <span className="logo-tagline">Nền tảng gia sư K-12</span>
+            <span className="logo-name">TOPTUTOR</span>
+            <span className="logo-tagline">Gia sư cấp 2, cấp 3</span>
           </div>
         </Link>
         <nav className="main-nav">

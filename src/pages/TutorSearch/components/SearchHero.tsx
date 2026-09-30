@@ -24,7 +24,7 @@ const SearchHero = ({ searchTerm, onSearchTermChange, onSearch, onTrendingClick 
             Hôm nay bạn muốn <span className="highlight">khai phá tri thức</span> gì?
           </h1>
           <p className="search-hero-subtitle">
-            Kể cho TUTORA nghe về mục tiêu học tập của bạn, chúng tôi sẽ tìm người đồng hành phù hợp nhất.
+            Kể cho TopTutor nghe về mục tiêu học tập của bạn, chúng tôi sẽ tìm người đồng hành phù hợp nhất.
           </p>
         </div>
         <div className="search-container">

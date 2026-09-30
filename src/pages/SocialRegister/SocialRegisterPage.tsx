@@ -192,7 +192,7 @@ const SocialRegisterPage: React.FC = () => {
       clearSession();
 
       const userRole = (getRoleFromToken(accessToken) || "").toLowerCase();
-      toast.success("Xác thực thành công! Chào mừng bạn đến với TUTORA.");
+      toast.success("Xác thực thành công! Chào mừng bạn đến với TopTutor.");
       setTimeout(() => navigate(portalPathFromRole(userRole), { replace: true }), 1200);
     } catch (error: any) {
       const message = error.response?.data?.message || error.message || "Xác thực thất bại.";

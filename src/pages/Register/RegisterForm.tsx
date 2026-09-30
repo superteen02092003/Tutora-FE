@@ -187,7 +187,7 @@ const RegisterForm: React.FC = () => {
             const role = getRoleFromToken(token) || '';
             const portalPath = getPortalPathFromRole(role);
 
-            toast.success(`Chào mừng ${formData.fullname} đến với TUTORA!`);
+            toast.success(`Chào mừng ${formData.fullname} đến với TopTutor!`);
             setTimeout(() => navigate(portalPath), 1500);
         } catch (error: any) {
             console.error("Register Error:", error);

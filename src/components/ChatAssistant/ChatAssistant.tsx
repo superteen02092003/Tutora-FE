@@ -31,7 +31,7 @@ const STORAGE_KEY = 'tutora_assistant_chat';
 const QUICK_ACTIONS: { icon: React.ReactNode; label: string; message: string }[] = [
   { icon: <GraduationCap size={18} />, label: 'Tìm gia sư Toán', message: 'Mình cần tìm gia sư Toán' },
   { icon: <Languages size={18} />, label: 'Tìm gia sư Tiếng Anh', message: 'Mình cần tìm gia sư Tiếng Anh' },
-  { icon: <HelpCircle size={18} />, label: 'Học phí ở Tutora thế nào?', message: 'Học phí ở Tutora thế nào?' },
+  { icon: <HelpCircle size={18} />, label: 'Học phí ở TopTutor thế nào?', message: 'Học phí ở TopTutor thế nào?' },
 ];
 
 interface PersistedChat {
@@ -174,21 +174,21 @@ const ChatAssistant: React.FC = () => {
       <button
         className={`${styles.launcher} ${open ? styles.launcherHidden : ''}`}
         onClick={() => setOpen(true)}
-        aria-label="Mở trợ lý Tutora"
-        title="Trợ lý Tutora"
+        aria-label="Mở trợ lý TopTutor"
+        title="Trợ lý TopTutor"
       >
         <MessageCircle size={26} />
       </button>
 
       {open && (
-        <div className={styles.panel} role="dialog" aria-label="Trợ lý Tutora">
+        <div className={styles.panel} role="dialog" aria-label="Trợ lý TopTutor">
           {/* Header */}
           <div className={styles.header}>
             <div className={styles.headerTitle}>
               <span className={styles.headerLogo}>
                 <MessageCircle size={18} />
               </span>
-              Trợ lý Tutora
+              Trợ lý TopTutor
             </div>
             <div className={styles.headerActions}>
               {started && (
@@ -213,9 +213,9 @@ const ChatAssistant: React.FC = () => {
               <span className={styles.introIcon}>
                 <MessageCircle size={30} />
               </span>
-              <h2 className={styles.introTitle}>Trợ lý Tutora</h2>
+              <h2 className={styles.introTitle}>Trợ lý TopTutor</h2>
               <p className={styles.introText}>
-                Mình giúp bạn tìm gia sư phù hợp và giải đáp thắc mắc về Tutora. Bạn cần gì hôm nay?
+                Mình giúp bạn tìm gia sư phù hợp và giải đáp thắc mắc về TopTutor. Bạn cần gì hôm nay?
               </p>
 
               <div className={styles.divider}>gợi ý nhanh</div>

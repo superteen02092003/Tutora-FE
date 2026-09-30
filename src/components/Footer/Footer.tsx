@@ -32,9 +32,9 @@ const Footer = () => {
                     <div className="footer-brand">
                         <div className="footer-logo">
                             <div className="footer-logo-icon">
-                                <img src="/tutora-logo.png" alt="Tutora" width="38" height="38" />
+                                <img src="/tutora-logo.png" alt="TopTutor" width="38" height="38" />
                             </div>
-                            <span className="footer-logo-text">TUTORA.</span>
+                            <span className="footer-logo-text">TOPTUTOR.</span>
                         </div>
                         <p className="footer-tagline">
                             "Kết nối phụ huynh với gia sư uy tín. Minh bạch — Bảo đảm — Tiện lợi."
@@ -72,7 +72,7 @@ const Footer = () => {
 
                 {/* Footer Bottom */}
                 <div className="footer-bottom">
-                    <span className="copyright">© 2026 Tutora. All Rights Reserved.</span>
+                    <span className="copyright">© 2026 TopTutor. All Rights Reserved.</span>
                     <div className="footer-legal">
                         <Link to={policyPath(POLICY_SLUGS.about)}>{POLICY_LABELS.about}</Link>
                         <Link to={policyPath(POLICY_SLUGS.privacy)}>{POLICY_LABELS.privacy}</Link>

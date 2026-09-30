@@ -34,7 +34,7 @@ export const policyPath = (slug: string) =>
  * trang /about hiển thị tên mới, còn nhãn ngắn ở đây giữ nguyên.
  */
 export const POLICY_LABELS: Record<PolicySlug, string> = {
-  about: 'Về Tutora',
+  about: 'Về TopTutor',
   terms: 'Điều khoản sử dụng',
   privacy: 'Chính sách bảo mật',
   cookies: 'Chính sách Cookie',

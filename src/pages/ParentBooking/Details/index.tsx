@@ -899,7 +899,7 @@ const BookingDetailPage = () => {
                   </dl>
                   <small className={styles.refundNote}>
                     {refundAmount > 0
-                      ? 'Khoản hoàn đã được cộng vào ví Tutora của bạn; xem chi tiết ở trang Ví.'
+                      ? 'Khoản hoàn đã được cộng vào ví TopTutor của bạn; xem chi tiết ở trang Ví.'
                       : 'Các buổi đã dạy được thanh toán cho gia sư nên không phát sinh khoản hoàn.'}
                   </small>
                 </div>

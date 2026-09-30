@@ -6,7 +6,7 @@ const UnauthorizedPage: React.FC = () => {
         <div className="error-page">
             <div className="error-container">
                 <div className="error-logo">
-                    <span className="logo-text">TUTORA</span>
+                    <span className="logo-text">TOPTUTOR</span>
                 </div>
 
                 <h1 className="error-code">401</h1>
@@ -29,7 +29,7 @@ const UnauthorizedPage: React.FC = () => {
                 </div>
 
                 <div className="error-footer">
-                    Cần hỗ trợ? <a href="mailto:support@TUTORA.edu.vn" className="error-link">Liên hệ chúng tôi</a>
+                    Cần hỗ trợ? <a href="mailto:support@toptutor.ai" className="error-link">Liên hệ chúng tôi</a>
                 </div>
             </div>
         </div>

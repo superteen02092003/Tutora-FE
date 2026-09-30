@@ -156,7 +156,7 @@ const TestimonialsSection = ({ feedbacks, totalFeedbacks, tutorId }: Testimonial
                                 </div>
                                 <div className="container92">
                                     <div className="border2">
-                                        <b className="xc-thc-bi">Xác thực bởi TUTORA LMS</b>
+                                        <b className="xc-thc-bi">Xác thực bởi TopTutor LMS</b>
                                     </div>
                                     {('courseDuration' in testimonial && (testimonial as any).courseDuration) && (
                                         <div className="border2">

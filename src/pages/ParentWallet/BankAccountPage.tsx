@@ -89,7 +89,7 @@ const BankAccountPage = () => {
   return (
     <FinanceShell
       title="Tài khoản ngân hàng"
-      titleInfo="Quản lý tài khoản nhận tiền khi bạn tạo yêu cầu rút tiền từ TUTORA."
+      titleInfo="Quản lý tài khoản nhận tiền khi bạn tạo yêu cầu rút tiền từ TopTutor."
     >
       <div className="finance-bank-layout">
         <BankAccountCard

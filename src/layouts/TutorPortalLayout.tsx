@@ -156,7 +156,7 @@ const buildPageTours = (navigate: ReturnType<typeof useNavigate>): PageTour[] =>
         steps: [
             {
                 target: '[data-tour="sidebar"]',
-                title: '🎯 Chào mừng đến TUTORA!',
+                title: '🎯 Chào mừng đến TopTutor!',
                 description: 'Đây là Bảng điều khiển của bạn. Menu bên trái giúp bạn truy cập nhanh mọi chức năng quản lý gia sư.',
                 placement: 'right',
             },
@@ -223,7 +223,7 @@ const buildPageTours = (navigate: ReturnType<typeof useNavigate>): PageTour[] =>
             {
                 target: '[data-tour="stats-grid"]',
                 title: '🎉 Sẵn sàng rồi!',
-                description: 'Chúc bạn có trải nghiệm làm gia sư thật tuyệt vời với TUTORA! Nếu cần hỗ trợ, đừng ngần ngại liên hệ đội ngũ của chúng tôi nhé. 💪',
+                description: 'Chúc bạn có trải nghiệm làm gia sư thật tuyệt vời với TopTutor! Nếu cần hỗ trợ, đừng ngần ngại liên hệ đội ngũ của chúng tôi nhé. 💪',
                 placement: 'bottom',
             },
         ],
@@ -667,8 +667,8 @@ const TutorPortalLayout: React.FC = () => {
         <>
             {tour.showTourPrompt && (
                 <TourWelcomePrompt
-                    title="Chào mừng bạn đến TUTORA!"
-                    description="Hãy để TUTORA hướng dẫn bạn khám phá các tính năng để có trải nghiệm mượt mà nhất nhé!"
+                    title="Chào mừng bạn đến TopTutor!"
+                    description="Hãy để TopTutor hướng dẫn bạn khám phá các tính năng để có trải nghiệm mượt mà nhất nhé!"
                     onAccept={tour.handleAcceptTour}
                     onSkip={tour.handleSkipTour}
                 />
