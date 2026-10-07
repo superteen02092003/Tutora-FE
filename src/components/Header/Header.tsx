@@ -141,7 +141,7 @@ const Header = ({
           </div>
           <div className="logo-text">
             <span className="logo-name">TOPTUTOR</span>
-            <span className="logo-tagline">Gia sư cấp 2, cấp 3</span>
+            <span className="logo-tagline">Gia sư lớp 1-12</span>
           </div>
         </Link>
         <nav className="main-nav">
