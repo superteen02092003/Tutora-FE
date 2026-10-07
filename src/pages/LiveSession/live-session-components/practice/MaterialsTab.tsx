@@ -84,7 +84,7 @@ const MaterialsTab = ({ bookingId, canUpload, refreshToken, onUploaded }: Materi
 
           return (
             <li key={m.materialId} className={styles.materialPost}>
-              <img src="/tutora-logo.png" alt="" className={styles.materialAvatar} />
+              <img src="/toptutor-logo.png" alt="" className={styles.materialAvatar} />
 
               <div className={styles.materialPostBody}>
                 <p className={styles.materialPostHead}>
