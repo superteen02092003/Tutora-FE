@@ -32,7 +32,7 @@ const Footer = () => {
                     <div className="footer-brand">
                         <div className="footer-logo">
                             <div className="footer-logo-icon">
-                                <img src="/tutora-logo.png" alt="TopTutor" width="38" height="38" />
+                                <img src="/toptutor-logo.png" alt="TopTutor" width="38" height="38" />
                             </div>
                             <span className="footer-logo-text">TOPTUTOR.</span>
                         </div>

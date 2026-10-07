@@ -137,7 +137,7 @@ const Header = ({
       <div className="header-content">
         <Link to="/" className="logo-link">
           <div className="logo-icon">
-            <img src="/tutora-logo.png" alt="TopTutor" width="38" height="38" />
+            <img src="/toptutor-logo.png" alt="TopTutor" width="38" height="38" />
           </div>
           <div className="logo-text">
             <span className="logo-name">TOPTUTOR</span>
